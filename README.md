@@ -1,1 +1,1 @@
-Este es una pequeño laboratorio para aprender y practicar con la tecnología GIT. Sublime.
+Este es una pequeño laboratorio para aprender y practicar con la tecnología GIT. Sublime. ¡Genial!
