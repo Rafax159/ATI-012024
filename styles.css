@@ -136,9 +136,9 @@ header nav ul li{
     display: inline-block;
 }
 
-#card1{
+.card1{
     background-color: rgb(226, 231, 229);
-    padding-left: 40px;
+    padding-left: 34px;
     padding-right: 37px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -152,7 +152,7 @@ header nav ul li{
 .card2{
     background-color: rgb(226, 231, 229);
     padding-left: 35px;
-    padding-right: 40px;
+    padding-right: 44px;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 200px;
@@ -193,4 +193,22 @@ footer{
     padding: 35px;
     text-align: center;
     font-size: 18px;
+}
+
+.row li{
+    transition: all 0.5s ease;
+    transform-origin: center;
+}
+
+.row li:hover div{
+    transform: scale(1.2) rotate(5deg);
+    background-color: #99c5dd;
+}
+
+.row li img, .row li div{
+    transition: all 0.5s ease;
+}
+
+.row li:hover img, .row li:hover{
+    transform: scale(1);
 }
