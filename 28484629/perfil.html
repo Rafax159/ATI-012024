@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/styles.css"/>
   </head>
   <body>
-    <div id="informacion">
+    <div class="informacion">
         <h1>RAFAEL CONTRERAS</h1>
         <p>
             <i>Soy Rafael Contreras, estudiante de la Universidad Central de Venezuela entre el 5to y 6to semestre. Me encuentro actualmente empezando el
@@ -26,6 +26,9 @@
         </p>
     </div>
 
-    <img src="28484629.jpeg" alt="No se pudo mostrar la imagen" id="imgProfile"/>
+    <picture>
+        <source srcset="CEDULApequeña.jpeg" media="(min-width: 320px) and (max-with: 768px)" id="imgProfilePequeña"/>
+        <img src="CEDULAgrande.jpeg" alt="No se pudo mostrar la imagen" id="imgProfile"/>
+    </picture>
   </body>
 </html>
