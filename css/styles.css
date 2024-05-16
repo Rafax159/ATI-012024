@@ -143,7 +143,7 @@ header nav ul li{
     padding: 6px;
 }
 
-#D1{
+#lista-estudiantes{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -151,61 +151,32 @@ header nav ul li{
     margin-bottom: 10px;
 }
 
-#D1 li{
+#lista-estudiantes li{
     display: inline-block;
     font-size: 1.5rem;
-}
-
-.card1{
-    background-color: rgb(226, 231, 229);
     padding-left: 34px;
     padding-right: 37px;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 200px;
-    text-align: center;
     margin: 25px;
     box-shadow: 5px 10px 10px rgb(80, 79, 79);
     border: solid 1px;
 }
 
-.card2{
-    background-color: rgb(226, 231, 229);
-    padding-left: 35px;
-    padding-right: 44px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 200px;
+#lista-estudiantes p{
     text-align: center;
-    margin: 25px;
-    box-shadow: 5px 10px 10px rgb(80, 79, 79);
-    border: solid 1px;
+    color: black;
+    padding: 0;
 }
 
-.card3{
-    background-color: rgb(226, 231, 229);
-    padding-left: 30px;
-    padding-right: 46px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 200px;
-    text-align: center;
-    margin: 25px;
-    box-shadow: 5px 10px 10px rgb(80, 79, 79);
-    border: solid 1px;
+#lista-estudiantes li img{
+    width: 100%;
+    height: 75%;
 }
 
-.card4{
-    background-color: rgb(226, 231, 229);
-    padding-left: 30px;
-    padding-right: 46px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 200px;
-    text-align: center;
-    margin: 25px;
-    box-shadow: 5px 10px 10px rgb(80, 79, 79);
-    border: solid 1px;
+#lista-estudiantes a{
+    text-decoration: none;
 }
 
 footer{
@@ -215,28 +186,18 @@ footer{
     font-size: 1.5rem;
 }
 
-.grid {
+.grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
 }
 
-.grid li {
+.grid li{
     transition: all 0.5s ease;
     transform-origin: center;
 }
 
-.grid li:hover div {
+.grid li:hover{
     transform: scale(1.2) rotate(5deg);
     background-color: #99c5dd;
-}
-
-.grid li img,
-.grid li div {
-    transition: all 0.5s ease;
-}
-
-.grid li:hover img,
-.grid li:hover {
-    transform: scale(1);
 }

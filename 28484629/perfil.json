@@ -1,0 +1,14 @@
+{
+	"nombre": "Rafael Contreras",
+    "descripcion": "Soy Rafael Contreras, estudiante de la Universidad Central de Venezuela entre el 5to y 6to semestre. Me encuentro actualmente empezando el estudio de la rama de desarrollo web. Me gusta hacer ejercicio, escuchar música, jugar videojuegos y estudiar japonés.",
+	"color": "Dorado",
+	"libro": "Harry Potter y la piedra filosofal",
+	"musica": "EDM y Rock",
+	"video_juego": ["Elden Ring", "Genshin Impact", "God of War"],
+	"lenguajes": ["C/C++", "Python", "Java"],
+	"email": "rafaelcontrerasagudelo@gmail.com",
+	"ci": "28484629",
+	"genero": "masculino",
+	"fecha_nacimiento": "01/08/2002",
+	"imagen": "CEDULAgrande.jpeg"
+}
